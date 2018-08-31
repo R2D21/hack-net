@@ -1,0 +1,121 @@
+body
+{
+    background-color:black;
+    margin-left:-0.6vw;
+    margin-top:-0.6vw;
+}
+
+#container
+{
+    width :100.6vw;
+    heigh:auto;
+    position: fixed;
+}
+
+#title
+{
+    margin-top:2vw;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:#ba0606;
+    height:5vw;
+}
+
+#screen_container
+{
+    display:flex;
+    justify-content:center;
+    margin-top:10vw;
+}
+
+.screen
+{
+    margin-left:2vw;
+    width:9.5%;
+    height:auto;
+}
+
+
+#pres_container
+{
+    display:flex;
+    margin-left:55vw;
+    margin-top:-20vw;
+    width:32vw;
+    line-height:1.5vw;
+}
+
+#pres
+{
+    color:#B0B0B0;
+}
+
+#video_container
+{
+    width:70vw;
+    margin-top:4vw;
+    margin-left:5vw;
+}
+
+iframe
+{
+    width:40vw;
+    heigth:70vw;
+}
+
+#connection
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.a
+{
+    margin-top:0.5vw;
+    font-size:1vw;
+}
+
+.boutonmenuprincipal {
+    background-color: #e83737;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top:20px;
+    margin-left:85.5vw;
+    font-size: 30px;
+}
+
+.boutonmenuprincipal:hover {
+    background-color: #ff4444;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: #272931;
+    min-width: 50px;
+    margin-left:70vw;
+}
+.dropdown-child a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-child {
+    display: block;
+    width:20vw;
+    margin-left:80vw;
+}
+
+#inscription
+{
+    display:flex;
+    justify-content:center;
+    margin-top:16vw;
+}
